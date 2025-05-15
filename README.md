@@ -1,56 +1,64 @@
 # CITRUS_2023
 
-Climate, Economic Inequality, and Malaria Incidence: A Comparative Analysis
+# Climate, Economic Inequality, and Malaria Incidence: A Comparative Analysis
 
+![Python](https://img.shields.io/badge/Python-3.9-blue.svg)  
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
+![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)  
+![Data Sources](https://img.shields.io/badge/Data-WHO%20%7C%20World%20Bank%20%7C%20Climate%20Portal-lightgrey)
 
-Overview
-This project explores the relationship between economic inequality, climate change, and malaria incidence across two countries: Nigeria and Madagascar. The guiding questions focus on how economic and environmental variables interact to influence the burden of malaria and healthcare outcomes.
+## 📌 Overview
 
-Research Questions
-To what extent does economic inequality affect vulnerability to climate change-induced malaria outbreaks?
+This project explores the relationship between **economic inequality**, **climate change**, and **malaria incidence** across two countries: Nigeria and Madagascar. It investigates how economic and environmental variables interact to influence the burden of malaria and healthcare outcomes.
 
-How do economic and climate factors jointly influence malaria incidence and healthcare costs across regions?
+## ❓ Research Questions
 
-Data Sources
-Malaria Incidence: World Health Organization (WHO)
+- To what extent does economic inequality affect vulnerability to climate change-induced malaria outbreaks?  
+- How do economic and climate factors jointly influence malaria incidence and healthcare costs across regions?
 
-Economic Data (GDP): World Bank
+## 📊 Data Sources
 
-Climate Data (Temperature): Climate Change Knowledge Portal
+- **Malaria Incidence**: World Health Organization (WHO)  
+- **Economic Data (GDP)**: World Bank  
+- **Climate Data (Temperature)**: Climate Change Knowledge Portal
 
-Tools & Libraries
-Python
+## 🧰 Tools & Libraries
 
-pandas
+- **Python 3.9**
+  - `pandas`
+  - `NumPy`
+  - `SciPy` (`scipy.stats`)
+  - `Matplotlib`
+  - `Seaborn`
+  - Jupyter Notebook
 
-NumPy
+## 🧪 Methods
 
-SciPy (scipy.stats)
+- Collected 20+ years of data on malaria incidence, GDP, and average annual temperature for **Nigeria** and **Madagascar**
+- Performed **correlation analysis** and **hypothesis testing** to assess variable relationships
+- Visualized trends with **heatmaps** and **line plots** using `Matplotlib` and `Seaborn`
 
-Matplotlib
+## 📈 Key Findings
 
-Seaborn
+- **Malaria incidence has increased more in Madagascar** than in Nigeria over the last 20 years  
+- **No statistically significant correlation** between changes in GDP and malaria incidence  
+- **Temperature trends** did not show strong predictive power for malaria burden in either country
 
-Methods
-Collected 20+ years of data on malaria incidence, GDP, and annual average temperature for Nigeria and Madagascar
+## ⚠️ Limitations
 
-Conducted correlation analysis and hypothesis testing to compare relationships between variables
+- Limited granularity in economic inequality data  
+- Correlation ≠ causation — further research is needed  
+- Findings are limited to two countries and a select group of variables
 
-Visualized trends using heatmaps and line plots to assess regional disparities
+## ✅ Conclusion
 
-Key Findings
-Significant difference in malaria incidence trends between Nigeria and Madagascar, with Madagascar showing a greater increase
+While a direct link between economic inequality and climate-driven malaria outbreaks was not found, this study highlights the **importance of regional context**. Madagascar's more pronounced increase in malaria incidence suggests the need for **targeted public health interventions** and more **nuanced economic-climate modeling**.
 
-No statistically significant correlation found between GDP changes and malaria incidence
+---
 
-Temperature did not appear to be a strong predictor of incidence trends in the datasets used
+Let me know if you'd like to include:
 
-Limitations
-Limited data granularity for regional economic inequality
-
-Findings are correlative and do not imply causation
-
-Further analysis with more disaggregated or longitudinal socioeconomic data is recommended
-
-Conclusion
-While the project did not find a conclusive link between economic growth and climate-induced malaria outbreaks, it highlights the importance of regional context in public health vulnerability. Madagascar has experienced a more pronounced increase in malaria incidence over the last two decades, warranting further investigation.
+- A `How to Run` section  
+- Example visualizations/screenshots  
+- Links to the datasets  
+- A `requirements.txt` for installation
