@@ -9,20 +9,20 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project explores the relationship between **economic inequality**, **climate change**, and **malaria incidence** across two countries: **Nigeria** and **Madagascar**. It investigates how economic and environmental variables interact to influence the burden of malaria and healthcare outcomes.
 
 ---
 
-## ❓ Research Questions
+## Research Questions
 
 - To what extent does economic inequality affect vulnerability to climate change-induced malaria outbreaks?  
 - How do economic and climate factors jointly influence malaria incidence and healthcare costs across regions?
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 - **Malaria Incidence**: World Health Organization (WHO)  
 - **Economic Data (GDP)**: World Bank  
@@ -30,7 +30,7 @@ This project explores the relationship between **economic inequality**, **climat
 
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 
 - **Google Colab** (Python 3.9)  
   - `pandas`  
@@ -41,7 +41,7 @@ This project explores the relationship between **economic inequality**, **climat
 
 ---
 
-## 🧪 Methods
+## Methods
 
 - Collected 20+ years of data on malaria incidence, GDP, and average annual temperature for **Nigeria** and **Madagascar**  
 - Conducted **correlation analysis** and **hypothesis testing** using `scipy.stats`  
@@ -49,7 +49,7 @@ This project explores the relationship between **economic inequality**, **climat
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - **Malaria incidence increased more in Madagascar** than in Nigeria from 2002 to 2022  
 - No statistically significant correlation was found between **GDP** changes and malaria incidence  
@@ -57,7 +57,7 @@ This project explores the relationship between **economic inequality**, **climat
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 Although this study does not establish a definitive link between economic inequality and climate change-induced malaria outbreaks, it does show that **Madagascar has experienced a greater increase in malaria incidence** over the past 20 years compared to Nigeria. This suggests that localized factors—potentially including healthcare infrastructure, climate variability, or vector control efforts—may play a critical role.
 
@@ -67,7 +67,7 @@ Although this study does not establish a definitive link between economic inequa
 
 ---
 
-## 🔮 Future Studies
+## Future Studies
 
 To build on this analysis, future research could explore:
 - Expanding the dataset to include **more country pairs** with contrasting GDP levels and similar climates  
@@ -77,7 +77,7 @@ To build on this analysis, future research could explore:
 
 ---
 
-## 📚 References
+## References
 
 1. **DataBank: World Development Indicators.** March 10, 2023. [World Bank](https://databank.worldbank.org/source/world-development-indicators#)
 
@@ -94,3 +94,9 @@ To build on this analysis, future research could explore:
 7. **World Bank Climate Change Knowledge Portal.** [Link](https://climateknowledgeportal.worldbank.org/download-data)
 
 ---
+
+## Presentation
+
+You can view the project presentation here:  
+[📎 Project Slide Deck (Google Slides)](https://docs.google.com/presentation/d/15e9HRNgzEHzPqRU5rjCFQB5xtJHsbjZv/edit?usp=sharing&ouid=102535417028323473788&rtpof=true&sd=true)
+
